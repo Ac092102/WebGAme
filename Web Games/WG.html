@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Motherboard Assembly Game</title>
+
+<script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
+
+<link rel="stylesheet" href="WG.css">
+</head>
+
+<body>
+
+<video id="video" width="640" height="480" autoplay playsinline></video>
+<canvas id="canvas" width="640" height="480"></canvas>
+
+<div class="slot" data-part="CPU Socket"
+     style="left:808px; top:365px; width:150px; height:120px;"></div>
+
+<div class="slot" data-part="RAM Slots"
+     style="left:698px; top:568px; width:360px; height:175px;"></div>
+
+<div class="slot" data-part="PCIe Slots"
+     style="left:405px; top:245px; width:138px; height:290px;"></div>
+
+<div class="slot" data-part="CMOS Battery"
+     style="left:590px; top:697px; width:60px; height:60px;"></div>
+
+<div class="slot" data-part="SouthBridge"
+     style="left:410px; top:572px; width:100px; height:90px;"></div>
+
+<div class="slot" data-part="NorthBridge"
+     style="left:820px; top:186px; width:192px; height:70px;"></div>
+     
+<div class="slot" data-part="HeatSink"
+     style="left:612px; top:350px; width:124px; height:180px;"></div>
+
+<div id="desc"></div>
+
+<img class="part" src="cpu.jpg" data-name="CPU Socket" style="left:120px; top:350px;">
+<img class="part" src="ram.png" data-name="RAM Slots" style="left:120px; top:200px;">
+<img class="part" src="pcie.png" data-name="PCIe Slots" style="left:120px; top:80px;">
+<img class="part" src="battery.png" data-name="CMOS Battery" style="left:120px; top:500px;">
+<img class="part" src="South.png" data-name="RAM Slots" style="left:120px; top:650px;">
+<img class="part" src="North.png" data-name="PCIe Slots" style="left:120px; top:780px;">
+<img class="part" src="Sink.png" data-name="CMOS Battery" style="left:120px; top:900px;">
+
+<script src="WG.js"></script>
+
+</body>
+</html>
